@@ -1,0 +1,538 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    display:flex;
+    flex-wrap: wrap;
+
+}
+
+
+.mother{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.second-mother{
+    background-color: rgba(12, 12, 12,0.9);
+    border-radius: 9px;
+    padding:25px;
+    width:425px;;
+}
+
+
+.main-one img{
+   margin-right: 12px;
+}
+.main-ones p{
+    color:white;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+
+.main{
+    margin-top: 15px;
+}
+
+.first-mummy{
+   
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.third-child{
+    margin-left: 410px;
+
+}
+
+.first-child{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.second-child {
+    position:relative;
+}
+
+.second-child a{
+color:lightgray;
+font-size: 17px;
+position: absolute;
+bottom: 0px;
+left:30px;
+width: 100px;
+padding-left: 10px;
+line-height:50px ;
+text-decoration: none;
+transition: color 1s ;
+}
+
+.second-child .child-i{
+    position:absolute;
+    bottom:80%;
+    left:10%;
+    background-color: black;
+    color: white; 
+    border-radius: 5px;
+    width:150px;
+    font-size: 15px;
+    text-align: center;
+    visibility: hidden;
+    line-height: 30px;
+    transition: opacity 1s;
+    opacity: 0;
+}
+
+.second-child a:hover{
+color:white;
+}
+
+.second-child:hover .child-i{
+    visibility: visible;
+    opacity: 1;
+}
+
+.third-child{
+    position: relative;
+}
+
+.Africon{
+    position:absolute;
+    right: 30px;
+    bottom:21px;
+}
+
+.Africon .child-ii{
+    background-color: rgb(14, 9, 9);
+    color:white;
+    position: absolute;
+    bottom: 120%;
+    width: 180px;
+    text-align: center;
+    border-radius: 6px;
+    left:-90px;
+    transition: opacity 1s;
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+
+.third-child:hover .child-ii{
+    visibility: visible;
+    opacity: 1;  
+}
+
+
+
+
+
+
+.confusing-state{
+background-color: rgba(12, 12, 12,0.9);
+width: 425px;
+border-radius: 7px;
+padding: 15px;
+margin-top: 5px;
+}
+
+.first-rectification-under-confusing-state{
+    background-color: rgb(44, 41, 41);
+    overflow-y: scroll;
+    border-radius: 10px;
+    padding: 5px;
+    height: 55px;
+
+}
+
+.first-rectification-under-confusing-state p{
+    color:white;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.anchor-under-confusing-state a{
+    color:black;
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.anchor-under-confusing-state{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.Second-rectification-under-confusing-state{
+    background-color: rgb(44, 41, 41);
+    overflow-y: scroll;
+    border-radius: 10px;
+    padding: 5px;
+    height: 55px;
+    margin-top: 20px;
+}
+
+
+
+.Second-rectification-under-confusing-state p{
+    color:white;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.multiple-anchor{
+    display: flex;
+    flex-wrap: wrap;
+}
+.multiple-anchor div{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.multiple-anchor div a{
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+
+}
+
+.secluded-anchor a{
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+}
+
+.secluded-anchor{
+    margin-left: 20px;
+    margin-top: 6px;
+}
+
+
+.secluded-icon{
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    width:100px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+
+}
+
+.secluded-icon p{
+    color:white;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+
+.mother-flex{
+    display: flex;
+}
+
+
+
+
+.second-phase{
+    background-color: rgb(27, 27, 27);
+    border-radius: 9px;
+    padding:5px;
+    width:70%;
+    margin:5px;
+    margin-right: 5px;
+    height: 70%;
+}
+
+.caret-icon{
+  margin-right: 10px;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+.caret-icon span{
+    background-color: black;
+    color: gray;
+    font-size: 20px;
+    padding: 6px 11px;
+    border-radius:50%;
+}
+
+
+
+.caret-icons{
+margin-right: 400px;
+padding-top: 15px;
+}
+
+.caret-icons span{
+    background-color: black;
+    color: gray;
+    font-size: 20px;
+    padding: 6px 10px;
+    border-radius:50%;
+}
+
+
+.sign-up{
+    margin-left: 100px;
+}
+
+.sign-up p{
+    color: gray;
+    font-size: 19px;
+    transition: font-weight 0s;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.sign-up p:hover{
+    font-weight: bolder;
+    color:white;
+}
+
+.login{
+    margin-left: 50px;
+}
+
+
+.login p{
+    background-color: white;
+    color:black;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: padding 0s;
+}
+
+.login p:hover{
+    padding: 12px 26px;
+}
+
+.first-element-under-second-phase {
+    display: flex;
+    padding-top: 5px;
+}
+
+.second-element-under-second-phase{
+background-color: rgba(54, 53, 53, 0.9);
+padding: 15px;
+padding-top: 30px;
+margin-top: 10px;
+overflow-y: scroll;
+height:467px;
+}
+
+
+.flex-one{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.content-two{
+ margin-left: 540px;
+}
+
+.content-one a{
+color:white;
+font-size: 23px;
+text-decoration: none;
+font-weight: bolder;
+}
+
+
+.content-two a{
+    color:gray;
+    text-decoration: none;
+}
+
+
+.content-one a:hover{
+text-decoration: underline;
+}
+
+.content-one a:hover{
+text-decoration: underline;
+}
+
+.content-two a:hover{
+text-decoration: underline;
+}
+
+
+
+
+.image-container img{
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    object-fit: center;
+}
+
+.image-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.image-container{
+   margin-left: 20px;
+}
+
+.written-class{
+    margin-bottom: 25px;
+}
+.written-class h4{
+color: white;
+}
+.written-class p{
+    color: white;
+}
+
+.images-container img{
+width:130px;
+border-radius: 10px;
+}
+
+.album-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.written-aspect{
+margin-bottom: 70px;
+}
+
+.written-aspect p{
+    color:white;
+    font-size: 18px;
+    text-align: left;
+}
+#colored-writing{
+    font-size: 15px;
+    color: gray;;
+}
+
+
+
+
+.inner-flex{
+display: flex;
+flex-wrap: wrap;
+width: 80%;
+}
+
+.sub-inner-flex{
+    margin-right: 23px;
+}
+
+.content{
+    color:gray;
+    font-size:17px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+.image-app{
+    margin-right:10px;
+}
+.image-app img{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    object-fit: center;
+    padding:5px;
+}
+
+.social-media{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.endinng-flex{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+
+.last-content p{
+color:gray;
+font-weight: light;
+}
+
+
+.last-content{
+    margin-top: 40px;
+}
+
+
+.flex-ending{
+    margin-left: 5px
+}
+
+
+
+.flex-ending{
+    background-color:rgb(236, 53, 236);
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding:10px;
+}
+
+.one-flex h5{
+color:white;
+font-weight:bolder;
+font-size: 15px;
+}
+
+.one-flex p{
+    color:white;
+    font-weight:bolder;
+}
+
+
+.two-flex a{
+    color:black;
+    font-weight:bolder;
+    border-radius: 300px;
+    background-color:white ;
+    padding: 15px 45px;
+    text-decoration: none;
+    transition: padding 0s;
+    }
+
+    .two-flex{
+        margin-left:450px;
+        margin-top: 10px;
+    }
+
+
+
+    .two-flex a:hover{
+        padding:17px 47px;
+    }
+
+
+    .mother-flex{
+        background-color: black;
+    }
